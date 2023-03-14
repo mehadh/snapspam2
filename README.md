@@ -11,10 +11,15 @@ Rather than using only one reason, it is now possible to input a list of reasons
 With limited testing, I've found that before you run into processor limitations, ImageTyperz will hit you with the "LIMITS EXCEEDS" error. I'm hoping to either transition to another captcha service that does not ratelimit, or figure out how to get the ratelimit increased, but as for now it is recommended that you lower your thread count if you face this error. 
 
 You will need the following files in the directory of the file:
+
 emails.txt - This should have email addresses to send reports from. I use real ones, but you can use fake ones.
+
 reasons.txt - The old version of the tool worked fine with just one reason, but I'm sure this will run better with more reasons. 
+
 proxies.txt - This program can run proxyless, just remove the proxy part of the request, but I'd suggest using some premium residential proxies. 
+
 targets.txt - A list of your targets.
+
 token.txt - ImageTyperz access token. 
 
 Todo:
