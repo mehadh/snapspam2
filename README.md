@@ -18,5 +18,7 @@ targets.txt - A list of your targets.
 token.txt - ImageTyperz access token. 
 
 Todo:
+
 More graceful error handling
+
 Report bad or expired captchas to ImageTyperz
